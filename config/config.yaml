@@ -256,11 +256,11 @@ notification:
       chat_id: ""                     # Telegram Chat ID
 
     email:
-      from: "123"                        # 发件人邮箱地址
-      password: ""                    # 发件人邮箱密码或授权码
-      to: ""                          # 收件人邮箱，多个用逗号分隔
-      smtp_server: ""                 # SMTP 服务器（可选，留空自动识别）
-      smtp_port: ""                   # SMTP 端口（可选，留空自动识别）
+      from: "1009116774@qq.com"                        # 发件人邮箱地址
+      password: "tjttknpsockdbfji"                    # 发件人邮箱密码或授权码
+      to: "1009116774@qq.com"                          # 收件人邮箱，多个用逗号分隔
+      smtp_server: "smtp.qq.com"                 # SMTP 服务器（可选，留空自动识别）
+      smtp_port: "587"                   # SMTP 端口（可选，留空自动识别）
 
     ntfy:
       server_url: "https://ntfy.sh"   # ntfy 服务器地址（可改为自托管）
@@ -308,13 +308,13 @@ storage:
     retention_days: 0                 # 保留天数（0=永久保留）
 
     # S3 兼容配置（或使用环境变量 S3_ENDPOINT_URL 等）
-    endpoint_url: ""                  # 服务端点
+    endpoint_url: "https://f591a3ab9a49900dc835cf9098b3ffbf.r2.cloudflarestorage.com"                  # 服务端点
                                       # Cloudflare R2: https://<account_id>.r2.cloudflarestorage.com
                                       # 阿里云 OSS: https://oss-cn-hangzhou.aliyuncs.com
                                       # 腾讯云 COS: https://cos.ap-guangzhou.myqcloud.com
-    bucket_name: ""                   # 存储桶名称
-    access_key_id: ""                 # 访问密钥 ID
-    secret_access_key: ""             # 访问密钥
+    bucket_name: "red"                   # 存储桶名称
+    access_key_id: "001f7a9eb4623b69f349848c2632ecb1"                 # 访问密钥 ID
+    secret_access_key: "d86b5db31ed7a2c303a22498e1ec37eca21b5761c20dd88dc1786d28a9a3f949"             # 访问密钥
     region: ""                        # 区域（可选，部分服务商需要）
 
   # 数据拉取配置（从远程同步到本地）
